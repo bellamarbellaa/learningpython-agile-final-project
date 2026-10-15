@@ -2,7 +2,7 @@
 name: User Story
 about: Create a user story for the Python Learning Agile Project
 title: "[USER STORY] "
-labels: enhancement
+labels: ''
 assignees: ''
 ---
 
