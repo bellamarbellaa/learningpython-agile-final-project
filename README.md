@@ -65,6 +65,6 @@ These are learning exercises that I will continue to revise. Character details a
 
 ## Learning materials
 
-These notes draw on lessons from [Bro Code's YouTube channel](https://www.youtube.com/@BroCodez), including Python basics and Pokémon examples. I adapted the examples for my own practice. The employee dataset used in the DuckDB material is available through [Prakhar Jadaun's Employee Data on Kaggle](https://www.kaggle.com/datasets/prakharjadaun/employee-data).
+These notes draw on both [Luke Barousse's Python Data Analytics Course](https://github.com/lukebarousse/Python_Data_Analytics_Course) and [Bro Code's YouTube channel](https://www.youtube.com/@BroCodez). I adapted the lessons and examples, including Pokémon examples, for my own practice. The employee dataset used in the DuckDB material is available through [Prakhar Jadaun's Employee Data on Kaggle](https://www.kaggle.com/datasets/prakharjadaun/employee-data).
 
 The notebooks were organized, edited, and checked with help from Codex.
