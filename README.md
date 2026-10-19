@@ -37,13 +37,17 @@ Restart the kernel after installation if an import still fails. The Python basic
 
 ## Analysis Practice
 
-The employee notebooks practice the full analysis process: exploring data, asking questions, writing SQL, summarizing results with pandas, and creating charts with Matplotlib. The dataset contains 1,000 practice records with salary, bonus, team, and other employee details.
+These notebooks help me practice working with data, from calculations and cleaning to SQL queries and charts. Each notebook focuses on one tool, with examples I can change and explore.
 
-**MySQL analysis:** Use the imported employees table to inspect data types, check missing values, summarize salaries by team, and plot team counts and salary distributions. PyMySQL and SQLAlchemy connect Python to the MySQL server.
+**NumPy:** Work with arrays, select and filter values, perform calculations, and summarize numerical data.
 
-**DuckDB analysis:** Query the included [employees.csv](employees.csv) to find the highest salaries and bonuses, calculate total pay, and compare salaries by team and gender. Convert SQL results to pandas and use Matplotlib to visualize the findings. DuckDB runs locally without a server or login.
+**pandas:** Explore tables, check data types and missing values, clean labels, filter rows, and compare groups.
 
-Both notebooks use employee data to practice similar analysis skills through different database tools. The MySQL notebook needs your own connection details and imported table. The DuckDB notebook runs directly from the CSV included in this repo.
+**Matplotlib:** Turn data into line charts, bar charts, scatter plots, pie charts, and histograms. Practice choosing labels, legends, and layouts that make results easier to read.
+
+**MySQL and DuckDB:** Practice SQL using employee data. Connect to a MySQL table with PyMySQL and SQLAlchemy, or query the included CSV with DuckDB. Use the results to explore salaries, bonuses, and teams, then summarize them with pandas and create charts with Matplotlib.
+
+The employee dataset contains 1,000 practice records. The notebooks use it alongside smaller examples to build analysis skills, rather than draw conclusions about a real workplace.
 
 ---
 
