@@ -35,15 +35,15 @@ Restart the kernel after installation if an import still fails. The Python basic
 
 ---
 
-## MySQL and DuckDB
+## Analysis Practice
 
-These are two ways to analyze employee data. Both use pandas for tables and Matplotlib for charts.
+The employee notebooks practice the full analysis process: exploring data, asking questions, writing SQL, summarizing results with pandas, and creating charts with Matplotlib. The dataset contains 1,000 practice records with salary, bonus, team, and other employee details.
 
-**MySQL:** The notebook connects to a running MySQL server through PyMySQL and SQLAlchemy. It uses the `employees` table in the `employees_python` database. Import [employees.csv](employees.csv) into that table using MySQL Workbench, then check the host, port, and username in the notebook. The current settings are `127.0.0.1:3306` and username `root`. Enter your own password at the private prompt. Passwords are not stored in the notebook.
+**MySQL analysis:** Use the imported employees table to inspect data types, check missing values, summarize salaries by team, and plot team counts and salary distributions. PyMySQL and SQLAlchemy connect Python to the MySQL server.
 
-**DuckDB:** The notebook reads [employees.csv](employees.csv) directly. It needs no server or login. It creates a temporary database, runs SQL, and converts the results to pandas. Closing the connection removes the temporary tables; the CSV remains available. To keep tables between sessions, connect to a `.duckdb` file instead.
+**DuckDB analysis:** Query the included [employees.csv](employees.csv) to find the highest salaries and bonuses, calculate total pay, and compare salaries by team and gender. Convert SQL results to pandas and use Matplotlib to visualize the findings. DuckDB runs locally without a server or login.
 
-The employee CSV contains 1,000 practice records with salary, bonus, team, and other columns. The DuckDB notebook uses this local file; the MySQL notebook reads the table you imported into your server.
+Both notebooks use employee data to practice similar analysis skills through different database tools. The MySQL notebook needs your own connection details and imported table. The DuckDB notebook runs directly from the CSV included in this repo.
 
 ---
 
